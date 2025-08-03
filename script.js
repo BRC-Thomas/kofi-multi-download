@@ -12,5 +12,5 @@ links.forEach((link, i) => {
   setTimeout(() => {
     a.click(); // start download
     a.remove(); // remove the temporary <a>
-  }, i * 200); // 200ms delay
+  }, i * 500); // 500ms delay
 });
